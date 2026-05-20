@@ -171,6 +171,12 @@ build/
 - 模块不会修改主程序路由入口、公共权限逻辑、支付链路、异步链路或主业务表结构。
 - 模块配置 key、函数名、CSS 类名和 JS 初始化标记均使用 `czzz_sitemap` / `czzz-sitemap` 前缀隔离。
 
+## 作者信息
+
+作者：云遮天  
+Telegram：[@czzzru](https://t.me/czzzru)  
+网站：[https://czzz.ru](https://czzz.ru)
+
 ## 许可证
 
 本仓库当前使用 GPL-3.0 许可证，详见 `LICENSE`。
