@@ -1,0 +1,24 @@
+czzz-pc-page-sitemap v1.0.0
+
+Archive: czzz-pc-page-sitemap-v1.0.0.tar.xz
+SHA256: 35e748b2813dbe611161932a8cd7a54450aa83e7058c9a80743e18d78720e51b
+
+Included files:
+- czzz-pc-page-sitemap/index.php
+- czzz-pc-page-sitemap/api.php
+- czzz-pc-page-sitemap/page.php
+- czzz-pc-page-sitemap/settings.php
+- czzz-pc-page-sitemap/sitemap_lib.php
+- czzz-pc-page-sitemap/module.css
+- czzz-pc-page-sitemap/logo.svg
+- czzz-pc-page-sitemap/build/.gitkeep
+- czzz-pc-page-sitemap/runtime/.gitkeep
+
+Excluded intentionally:
+- czzz-pc-page-sitemap/build/html/*
+- czzz-pc-page-sitemap/build/xml/*
+- czzz-pc-page-sitemap/build/txt/*
+- czzz-pc-page-sitemap/build/index.json
+- czzz-pc-page-sitemap/runtime/build.lock
+- Any LightSNS main program files outside this module
+- Any local site runtime data or sensitive configuration
