@@ -173,3 +173,13 @@ build/
 ## 许可证
 
 本仓库当前使用 GPL-3.0 许可证，详见 `LICENSE`。
+
+## 作者信息
+
+作者：云遮天
+
+Telegram：[@czzzru](https://t.me/czzzru)
+
+QQ：80795151
+
+网站：[https://czzz.ru](https://czzz.ru)
