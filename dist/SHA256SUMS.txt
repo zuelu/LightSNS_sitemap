@@ -1,2 +1,1 @@
-1c6fc4e5debeaa20ec5c31680ad9b7f5be37a85ff78515fe5488a08512c2c84c  czzz-pc-page-sitemap-v1.0.1.zip
-35e748b2813dbe611161932a8cd7a54450aa83e7058c9a80743e18d78720e51b  czzz-pc-page-sitemap-v1.0.0.tar.xz
+97c266bbf4e5257fdfd6f109b63b666dada78daafed97f76569f56ade3de5e27  czzz-pc-page-sitemap-v1.0.1.zip

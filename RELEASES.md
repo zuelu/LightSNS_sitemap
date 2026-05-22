@@ -1,40 +1,23 @@
-# 版本发布
+# 版本更新
 
 ## v1.0.1
 
 发布时间：2026-05-22
 
-下载：[`dist/czzz-pc-page-sitemap-v1.0.1.zip`](dist/czzz-pc-page-sitemap-v1.0.1.zip)
+本次更新修复前台 Sitemap 页面在部分登录状态下可能显示空白的问题。
 
-SHA256：
+更新内容：
 
-```text
-1c6fc4e5debeaa20ec5c31680ad9b7f5be37a85ff78515fe5488a08512c2c84c  czzz-pc-page-sitemap-v1.0.1.zip
-```
-
-说明：
-
-- 前台路由改为 raw 独立输出，避免被主站布局嵌套或登录态缓冲清理影响。
-- 移除前台页面的全局输出缓冲清理，仅保留构建文件服务接口的必要清理。
-- Release 包内目录为 `czzz-pc-page-sitemap/`，仅包含插件源码、图标、文档和空的 `build/`、`runtime/` 占位目录。
-- 不包含本站生成的 Sitemap build 文件、运行锁文件、主程序文件或敏感配置。
-
+- 前台 Sitemap 页面改为独立页面输出，访问 `/sitemap` 时显示更稳定。
+- 优化页面输出流程，避免页面内容被异常清空。
+- 保持 HTML、XML、TXT 三类 Sitemap 的生成和访问方式不变。
 
 ## v1.0.0
 
-发布时间：2026-05-20
+首次发布。
 
-下载：[`dist/czzz-pc-page-sitemap-v1.0.0.tar.xz`](dist/czzz-pc-page-sitemap-v1.0.0.tar.xz)
+主要功能：
 
-SHA256：
-
-```text
-35e748b2813dbe611161932a8cd7a54450aa83e7058c9a80743e18d78720e51b  czzz-pc-page-sitemap-v1.0.0.tar.xz
-```
-
-说明：
-
-- 包内目录为 `czzz-pc-page-sitemap/`。
-- 包内包含插件完整源码、图标、空的 `build/` 与 `runtime/` 占位目录。
-- 不包含本站生成的 Sitemap build 文件、运行锁文件、LightSNS 主程序文件或敏感配置。
-- 安装与使用说明见 [`README.md`](README.md) 和 [`INSTALL-USAGE.md`](INSTALL-USAGE.md)。
+- 支持生成 HTML、XML、TXT 三类 Sitemap。
+- 支持首页、搜索页、视频流、公开板块、热门标签和公开帖子的收录范围配置。
+- 支持管理员手动重建和定时任务自动重建。

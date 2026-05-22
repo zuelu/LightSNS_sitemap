@@ -21,10 +21,7 @@
 | 模块名称 | 网站地图 Sitemap |
 | 模块类型 | `page` |
 | 模块平台 | `pc` |
-| 当前版本 | `1.0.0` |
-| Module URI | `https://czzz.ru` |
-| Author | `Czzz.ru` |
-| Author URI | `https://czzz.ru` |
+| 当前版本 | `1.0.1` |
 | Demo URI | `https://czzz.ru/sitemap` |
 
 ## 运行要求
@@ -168,8 +165,10 @@ build/
 - 管理员重建必须登录且具备管理员权限。
 - 定时任务重建必须携带正确强密钥。
 - 前台普通访问只读取已有 build，不会自动触发重建。
-- 模块不会修改主程序路由入口、公共权限逻辑、支付链路、异步链路或主业务表结构。
-- 模块配置 key、函数名、CSS 类名和 JS 初始化标记均使用 `czzz_sitemap` / `czzz-sitemap` 前缀隔离。
+
+## 版本更新
+
+版本更新说明见 [RELEASES.md](RELEASES.md)。
 
 ## 许可证
 
