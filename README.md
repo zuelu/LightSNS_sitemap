@@ -33,7 +33,7 @@
 - 模块必须放置在固定目录：
 
 ```text
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap
 ```
 
 - Web 服务运行用户需要对模块目录下的 `build/` 和 `runtime/` 具备写入权限。
@@ -44,7 +44,7 @@
 1. 将模块目录放到 LightSNS 的 PC 页面模块目录下：
 
 ```text
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap
 ```
 
 2. 确认模块目录结构不变，尤其不要修改模块 ID 和目录层级。
@@ -52,8 +52,8 @@
 3. 确保运行时目录可写：
 
 ```bash
-chmod -R u+rwX,g+rwX /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build
-chmod -R u+rwX,g+rwX /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/runtime
+chmod -R u+rwX,g+rwX /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build
+chmod -R u+rwX,g+rwX /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/runtime
 ```
 
 4. 登录 LightSNS 后台，进入：
@@ -170,12 +170,6 @@ build/
 - 前台普通访问只读取已有 build，不会自动触发重建。
 - 模块不会修改主程序路由入口、公共权限逻辑、支付链路、异步链路或主业务表结构。
 - 模块配置 key、函数名、CSS 类名和 JS 初始化标记均使用 `czzz_sitemap` / `czzz-sitemap` 前缀隔离。
-
-## 作者信息
-
-作者：云遮天  
-Telegram：[@czzzru](https://t.me/czzzru)  
-网站：[https://czzz.ru](https://czzz.ru)
 
 ## 许可证
 

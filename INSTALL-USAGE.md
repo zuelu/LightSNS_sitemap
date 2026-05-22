@@ -7,7 +7,7 @@
 模块必须安装到 LightSNS 的 PC 页面模块目录中：
 
 ```text
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap
 ```
 
 请保持以下目录层级不变：
@@ -37,15 +37,15 @@ module/
 建议确认 Web 服务运行用户对以下目录具备读写权限：
 
 ```bash
-chmod -R u+rwX,g+rwX /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build
-chmod -R u+rwX,g+rwX /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/runtime
+chmod -R u+rwX,g+rwX /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build
+chmod -R u+rwX,g+rwX /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/runtime
 ```
 
 如果安装包中没有 `build/` 或 `runtime/`，可以先创建目录：
 
 ```bash
-mkdir -p /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build
-mkdir -p /www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/runtime
+mkdir -p /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build
+mkdir -p /path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/runtime
 ```
 
 ## 3. 后台启用
@@ -162,10 +162,10 @@ https://czzz.ru/sitemap
 构建成功后会生成：
 
 ```text
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build/index.json
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build/html/index.html
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build/xml/index.xml
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap/build/txt/index.txt
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build/index.json
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build/html/index.html
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build/xml/index.xml
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap/build/txt/index.txt
 ```
 
 ## 8. 访问生成结果
@@ -429,7 +429,7 @@ https://czzz.ru/module/pc/page/czzz-pc-page-sitemap/build/xml/index.xml
 如需完全移除模块，确认已停用模块和计划任务后，再删除：
 
 ```text
-/www/wwwroot/czzz.ru/module/pc/page/czzz-pc-page-sitemap
+/path/to/lightsns/module/pc/page/czzz-pc-page-sitemap
 ```
 
 ## 15. 边界说明
